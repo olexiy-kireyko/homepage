@@ -276,20 +276,20 @@ body {
 }
 
 .first__hobbies {
-  animation: animation_one 12s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+  animation: animation_one 10s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
 }
 
 .second__hobbies {
-  animation: animation_two 12s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+  animation: animation_two 10s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
 }
 
 .third__hobbies {
-  animation: animation_three 12s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+  animation: animation_three 10s cubic-bezier(0.175, 0.885, 0.32, 1.275)
     infinite;
 }
 
 .fourth__hobbies {
-  animation: animation_four 12s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+  animation: animation_four 10s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
 }
 
 @keyframes animation_one {
