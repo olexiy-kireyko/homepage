@@ -260,3 +260,82 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.skills__hobbies {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 36px 0 52px;
+}
+
+@media screen and (max-width: 576px) {
+  .skills__hobbies {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
+.first__hobbies {
+  animation: animation_one 12s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+}
+
+.second__hobbies {
+  animation: animation_two 12s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+}
+
+.third__hobbies {
+  animation: animation_three 12s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    infinite;
+}
+
+.fourth__hobbies {
+  animation: animation_four 12s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+}
+
+@keyframes animation_one {
+  0% {
+    transform: translate(80px, 0px);
+  }
+  35% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(80px, 0px);
+  }
+}
+
+@keyframes animation_two {
+  0% {
+    transform: translate(50px, 0px);
+  }
+  35% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(50px, 0px);
+  }
+}
+
+@keyframes animation_three {
+  0% {
+    transform: translate(-50px, 0px);
+  }
+  35% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(-50px, 0px);
+  }
+}
+
+@keyframes animation_four {
+  0% {
+    transform: translate(-80px, 0px);
+  }
+  35% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(-80px, 0px);
+  }
+}
